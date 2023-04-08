@@ -24,3 +24,7 @@ BMI: Body mass index (weight in kg/(height in m)^2)
 DiabetesPedigreeFunction: A function that scores likelihood of diabetes based on family history
 Age: Age in years
 Outcome: Class variable (0: the person is not diabetic or 1: the person is diabetic)
+
+#### Note: 
+The ipynb file consists of the python code with relevant code segments, giving results for the above stated business statement.
+The csv file consists of the dataset required for this project.
