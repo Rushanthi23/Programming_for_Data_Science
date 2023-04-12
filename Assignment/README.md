@@ -25,6 +25,16 @@ DiabetesPedigreeFunction: A function that scores likelihood of diabetes based on
 Age: Age in years
 Outcome: Class variable (0: the person is not diabetic or 1: the person is diabetic)
 
+### Process:
+* First an EDA was done on the Dataset, where basic stats were viewed along with few visualizations to understand the data [boxplot for outliers, correlation matrix heatmap for feature correlation understanding.
+* Model splitting, fitting and training was done.
+* The model was trained on Logistic Regression and Random Forest.
+
+
+### Conclusion:
+
+Random Forest model gives the best performance. This was concluded based on many factors. Compartive to Logistic Regression, Random Forest models' test set accuracy was higher by 4%. Addition to that Train set accuracy was also higher by 6%. The type one and type two error values are comparatively low in Random Forest model than Logistic Regression Model. Hence, it could be concluded that Random Forest Model performed the best.
+
 #### Note: 
 The ipynb file consists of the python code with relevant code segments, giving results for the above stated business statement.
 The csv file consists of the dataset required for this project.
